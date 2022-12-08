@@ -12,13 +12,13 @@
 /build
 
 # materials
-/react-projects
-/src/components/Project2
-/src/components/Project3
-/src/components/Project4
-/src/components/Project5
-/src/components/Project6
-/src/components/Project7
+# /react-projects
+# /src/components/Project2
+# /src/components/Project3
+# /src/components/Project4
+# /src/components/Project5
+# /src/components/Project6
+# /src/components/Project7
 
 # misc
 .DS_Store

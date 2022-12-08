@@ -1,0 +1,139 @@
+.expense-tracker {
+       background-color: antiquewhite;
+}
+
+.expense-tracker header h3 {
+    text-align: center;
+}
+.expense-tracker .container {
+    width: 98%;
+    margin-top: 1rem;
+}
+.expense-tracker .balance {
+    margin-top: 2rem;
+}
+
+.expense-tracker .balance h2 {
+    margin-top: -10px;
+}
+
+.expense-tracker .inc-exp {
+    margin: 2rem .1rem;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.expense-tracker .inc-exp .income p {
+    color: rgb(105, 190, 105);
+    font-size: 150%;
+    font-weight: 500;
+}
+
+.expense-tracker .inc-exp .underline {
+    height: 2px;
+    background-color: #ddd;
+    transform: rotate(-90deg);
+}
+
+.expense-tracker .inc-exp .expense p {
+    color: rgb(234, 53, 53);
+    font-size: 150%;
+    font-weight: 500;
+}
+.expense-tracker .history h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.expense-tracker .history .transaction {
+    margin: 1rem 0;
+    display: flex;
+    gap: .5rem;
+}
+
+.expense-tracker .history .transaction-info {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    padding: .8rem .5rem;
+}
+
+.expense-tracker .history .success {
+    border-right: 5px solid rgb(105, 190, 105);
+}
+
+.expense-tracker .history .danger {
+    border-right: 5px solid rgb(236, 64, 64);
+}
+
+.expense-tracker .history li:hover .trash-btn svg {
+    width: 20px;
+}
+.expense-tracker .history li:hover .trash-btn {
+    display: block;
+}
+.expense-tracker .history .transaction .trash-btn {
+    background-color: rgb(248, 87, 87);
+    flex-basis: 0%;
+    display: none;
+    padding: .5rem;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
+
+.expense-tracker .history .transaction svg {
+    height: 20px;
+    width: 0px;
+}
+
+.expense-tracker .add {
+    margin-top: 2rem;
+}
+
+.expense-tracker .add h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.expense-tracker .add form label {
+    font-size: 16px;
+    font-weight: bold;   
+}
+
+ .expense-tracker .add form p {
+    margin-bottom: -.3rem;
+    font-size: 16px;
+    font-weight: bold;
+ }
+
+.expense-tracker .add form input {
+    display: block;
+    width: 98%;
+    padding: .5rem;
+    border: 0;
+    outline: 0;
+    background-color: aliceblue;
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+
+.expense-tracker .add form button {
+    width: 98%;
+    color: antiquewhite;
+    background-color: rgb(215, 14, 215);
+    padding: .8rem 0;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}

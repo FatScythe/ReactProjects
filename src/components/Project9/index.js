@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./nine.css";
 import Values from "values.js";
 import SingleColor from "./SingleColor";
 

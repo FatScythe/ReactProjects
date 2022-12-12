@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./four.css";
 import Accordian from "./Accordian";
 import data from "./data";
 

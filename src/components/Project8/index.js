@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import "./eight.css";
 import { AiOutlineCopy } from "react-icons/ai";
 
 const WordGenerator = () => {

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./seven.css";
 import data from "./data";
 import Carousel from "./Carousel";
 

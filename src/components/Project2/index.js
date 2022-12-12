@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./two.css";
 import Tours from "./Tours";
 import Loading from "./Loading";
 

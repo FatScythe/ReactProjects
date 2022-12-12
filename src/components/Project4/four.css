@@ -1,0 +1,80 @@
+/*
+=============== 
+Questions
+Project 4
+===============
+*/
+
+#four {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-grey-2);
+}
+
+#four .container {
+    width: 90vw;
+    margin: 5rem auto;
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    padding: 1rem;
+    max-width: 900px;
+    display: grid;
+    gap: 1rem 2rem;
+}
+
+#four .container h3 {
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+    #four .container {
+        display: grid;
+        grid-template-columns: 250px 1fr;
+    }
+}
+
+#four .question {
+    padding: 1rem 1.5rem;
+    border: 2px solid rgb(222, 212, 212);
+    margin-bottom: 1rem;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+}
+
+#four .question h4 {
+    text-transform: none;
+    line-height: 1.5;
+}
+
+#four .question p {
+    color: rgb(135, 128, 128);
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+
+#four .question header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#four .question header h4 {
+    margin-bottom: 0;
+}
+
+#four .btn {
+    border-color: transparent;
+    width: 2rem;
+    height: 2rem;
+    font-size: larger;
+    font-weight: bold;
+    background: rgb(222, 212, 212);
+    border-radius: 50%;
+    color: rgb(248, 73, 73);
+    cursor: pointer;
+    margin-left: 1rem;
+    min-width: 2rem;
+}

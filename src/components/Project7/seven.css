@@ -1,0 +1,147 @@
+/*
+=============== 
+Project7
+Slider
+===============
+*/
+#seven {
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 100vw;
+    height: 200vh;
+    max-height: 100%;
+}
+
+#seven .title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#seven .title h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+#seven .title span {
+    font-size: 0.85em;
+    color: var(--clr-primary-5);
+    margin-right: 1rem;
+    font-weight: 700;
+}
+
+#seven .section-center {
+    margin: 0 auto;
+    margin-top: 4rem;
+    width: 80vw;
+    height: 450px;
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+#seven .person-img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid var(--clr-grey-8);
+    box-shadow: var(--dark-shadow);
+}
+
+#seven article h4 {
+    text-transform: uppercase;
+    color: var(--clr-primary-5);
+    margin-bottom: 0.25rem;
+}
+
+#seven .title {
+    text-transform: capitalize;
+    margin-bottom: 0.75rem;
+    color: var(--clr-grey-3);
+}
+
+#seven .text {
+    max-width: 35em;
+    margin: 0 auto;
+    margin-top: 2rem;
+    line-height: 2;
+    color: var(--clr-grey-5);
+}
+
+#seven .icon {
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: var(--clr-primary-5);
+}
+
+#seven .prev,
+#seven .next {
+    position: absolute;
+    top: 200px;
+    transform: translateY(-50%);
+    background: var(--clr-grey-5);
+    color: var(--clr-white);
+    width: 1.25rem;
+    height: 1.25rem;
+    display: grid;
+    place-items: center;
+    border-color: transparent;
+    font-size: 1rem;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+#seven .prev:hover,
+#seven .next:hover {
+    background: var(--clr-primary-5);
+}
+
+#seven .prev {
+    left: 0;
+}
+
+#seven .next {
+    right: 0;
+}
+
+@media (min-width: 800px) {
+    #seven .text {
+        max-width: 45em;
+    }
+
+    #seven .prev,
+    #seven .next {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+#seven article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: var(--transition);
+}
+
+#seven article.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#seven article.lastSlide {
+    transform: translateX(-100%);
+}
+
+#seven article.nextSlide {
+    transform: translateX(100%);
+}

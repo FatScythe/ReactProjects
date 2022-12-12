@@ -1,0 +1,151 @@
+/*
+=============== 
+Jobs
+Project6
+===============
+*/
+#six {
+    background-color: #f1f1f1;
+    height: 100vh;
+    max-height: 100%;
+}
+
+#six .section {
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+    #six .section {
+        width: 95vw;
+    }
+}
+
+.loading {
+    text-align: center;
+}
+
+#six .jobs-center {
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+#six .btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+#six .job-btn {
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    letter-spacing: var(--spacing);
+    margin: 0 0.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+    padding: 0.25rem 0;
+    line-height: 1;
+    outline-color: var(--clr-primary-10);
+}
+
+#six .job-btn:hover {
+    color: var(--clr-primary-5);
+    box-shadow: 0 2px var(--clr-primary-5);
+}
+
+#six .active-btn {
+    color: var(--clr-primary-5);
+    box-shadow: 0 2px var(--clr-primary-5);
+}
+
+#six .job-info h3 {
+    font-weight: 400;
+}
+
+#six .job-info h4 {
+    text-transform: uppercase;
+    color: var(--clr-grey-7);
+    background: var(--clr-grey-3);
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    border-radius: var(--radius);
+}
+
+#six .job-date {
+    letter-spacing: var(--spacing);
+}
+
+#six .job-desc {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+#six .job-desc p {
+    margin-bottom: 0;
+    color: var(--clr-grey-3);
+}
+
+#six .job-icon {
+    color: var(--clr-primary-5);
+}
+
+@media screen and (min-width: 992px) {
+    #six .jobs-center {
+        width: 90vw;
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        column-gap: 4rem;
+    }
+
+    #six .btn-container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #six .job-btn {
+        margin-bottom: 1rem;
+    }
+
+    #six .active-btn {
+        box-shadow: -2px 0 var(--clr-primary-5);
+    }
+
+    #six .job-btn:hover {
+        box-shadow: -2px 0 var(--clr-primary-5);
+    }
+}
+
+#six .btn {
+    text-transform: uppercase;
+    background: var(--clr-primary-5);
+    color: var(--clr-primary-9);
+    padding: 0.375rem 0.75rem;
+    letter-spacing: var(--spacing);
+    font-weight: 700;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+    font-size: 0.875rem;
+    border: 2px solid transparent;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius);
+    display: block;
+    width: 12rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+#six .btn:hover {
+    color: var(--clr-primary-1);
+    background: var(--clr-primary-8);
+}

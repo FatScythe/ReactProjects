@@ -1,3 +1,4 @@
+import "./three.css";
 import reviews from "./data";
 import Review from "./Review";
 

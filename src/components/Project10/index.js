@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import "./ten.css";
 import Alert from "./Alert";
 import List from "./List";
 

@@ -6,6 +6,38 @@ ___
 A bunch of small react projects built for help further my knowledge on react.
 #### Project 1
 A simple birthday reminder card with use of useState and  filter method ...
+
+#### useEffect and Conditional Rendering
+
+2. Tours
+3. Reviews
+4. Questions
+5. Menu
+6. Tabs
+7. Slider
+
+#### Forms
+
+8. Lorem Ipsum Generator
+9. Color Shades Generator
+10. Grocery Bud
+
+#### useRef
+
+11. Navbar
+
+#### useContext
+
+12.  Stripe Submenus
+
+#### useReducer and useContext
+
+13. Cart
+14. ExpenseTracker
+#### React Router and useCallback
+
+15. Cocktails
+
 ____
 
 

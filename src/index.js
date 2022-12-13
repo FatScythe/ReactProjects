@@ -12,11 +12,11 @@ root.render(
   // <React.StrictMode>
   <ElevenProvider>
     <TwelveProvider>
-      {/* <ThirteenProvider> */}
-      <FourteenProvider>
-        <App />
-      </FourteenProvider>
-      {/* </ThirteenProvider> */}
+      <ThirteenProvider>
+        <FourteenProvider>
+          <App />
+        </FourteenProvider>
+      </ThirteenProvider>
     </TwelveProvider>
   </ElevenProvider>
   // </React.StrictMode>

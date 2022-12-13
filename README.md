@@ -5,7 +5,7 @@ ___
 ### Description 
 A bunch of small react projects built for help further my knowledge on react.
 #### Project 1
-A simple birthday reminder card with use of useState and  filter method
+A simple birthday reminder card with use of useState and  filter method ...
 ____
 
 

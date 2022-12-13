@@ -1,0 +1,86 @@
+export const links = [
+  {
+    id: 1,
+    link: "/birthday",
+    img: "",
+    name: "Birthday Reminder",
+  },
+  {
+    id: 2,
+    link: "/tours",
+    img: "",
+    name: "Tours",
+  },
+  {
+    id: 3,
+    link: "/reviews",
+    img: "",
+    name: "Reviews",
+  },
+  {
+    id: 4,
+    link: "/questions",
+    img: "",
+    name: "Accordian",
+  },
+  {
+    id: 5,
+    link: "/menu",
+    img: "",
+    name: "Menu",
+  },
+  {
+    id: 6,
+    link: "/jobs",
+    img: "",
+    name: "Jobs",
+  },
+  {
+    id: 7,
+    link: "/slider",
+    img: "",
+    name: "Slider",
+  },
+  {
+    id: 8,
+    link: "/word",
+    img: "",
+    name: "Word Generator",
+  },
+  {
+    id: 9,
+    link: "/color",
+    img: "",
+    name: "Colour Generator",
+  },
+  {
+    id: 10,
+    link: "/grocery",
+    img: "",
+    name: "Grocery Buds",
+  },
+  {
+    id: 11,
+    link: "/navbar",
+    img: "",
+    name: "Navbar",
+  },
+  {
+    id: 12,
+    link: "/submenu",
+    img: "",
+    name: "Stripe Submenu",
+  },
+  {
+    id: 13,
+    link: "/cart",
+    img: "",
+    name: "Cart",
+  },
+  {
+    id: 14,
+    link: "/tracker",
+    img: "",
+    name: "Expense Tracker",
+  },
+];
